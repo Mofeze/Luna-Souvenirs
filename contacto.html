@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/categorias.css">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<header>
+		<div class="nav-container">
+			<img src="images/LunaSouvenirs.jpg">
+			<nav>
+				<a href="index.html"><h2>Inicio</h2></a>
+				<a href="informacion.html"><h2>Información</h2></a>
+				<a href="categorias.html"><h2>Categorias</h2></a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<form>
+
+			<label for="name">Nombre y Apellido</label>
+			<input type="text" id="name" minlength="8" required>
+
+			<label for="email">Correo Electrónico</label>
+			<input type="email" id="email">
+
+			<label for="number">Teléfono/Celular</label>
+			<input type="number" minlength="8" required>
+
+			<label for="image">Imagen</label>
+			<input type="file" id="image">
+
+			<label for="txta">Mensaje</label>
+			<textarea id="txta" placeholder="Escribe tu pregunta n_n" rows="8" cols="30"></textarea>
+
+			
+			<input type="submit" value="Enviar" class="send">
+
+		</form>
+
+	</main>
+
+</body>
+</html>
